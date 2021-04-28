@@ -1,0 +1,37 @@
+page-login {
+  ion-content{
+    .scroll-content{
+      background-color: map-get($colors , secondary );
+    }
+
+  }
+
+  .item{
+
+    background-color: map-get($colors , secondary );
+
+  }
+
+.logo{
+  font-size: 25vh;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h1,h6{
+  color:white;
+  font-size: 1em;
+}
+.rowStyle{
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+
+  ion-icon{
+    margin-top: 13px;
+    margin-right: 10px;
+  }
+
+}
+}
